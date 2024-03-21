@@ -14,5 +14,3 @@ jobs:
       terraform-directory-path: src
       terraform-version: 1.6.3
     secrets: inherit
-
-    
