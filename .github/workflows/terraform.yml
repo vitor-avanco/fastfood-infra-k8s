@@ -7,7 +7,7 @@ on:
 
 jobs:
   terraform:
-    uses: .github/workflows/aws-terraform.yml
+    uses: .github/workflows/aws-terraform.yml@main
     with:
       aws-region: us-east-1
       terraform-directory-path: src
