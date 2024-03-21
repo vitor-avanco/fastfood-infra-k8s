@@ -2,7 +2,6 @@ terraform {
   backend "s3" {
     bucket         = "767397811632-terraform-backend"
     key            = "github/vitor-avanco/fastfood-infra-k8s"
-    dynamodb_table = "767397811632-terraform-backend"
     region         = "us-east-1"
   }
 }
